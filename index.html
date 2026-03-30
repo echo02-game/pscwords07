@@ -460,35 +460,180 @@
     <script>
         // === 數據定義 (替換為作品7號的字詞，時間軸為開發測試的臨時預設值，請使用 🛠️ 工具重新標記) ===
         let sentenceData = [
-    { "word": "高速列車", "pinyin": "gāo sù liè chē", "start": 0, "end": 2 },
-    { "word": "呼嘯而過", "pinyin": "hū xiào ér guò", "start": 2, "end": 4 },
-    { "word": "轉瞬即逝", "pinyin": "zhuǎn shùn jí shì", "start": 4, "end": 6 },
-    { "word": "不得不", "pinyin": "bù dé bù", "start": 6, "end": 8 },
-    { "word": "那麽", "pinyin": "nà me", "start": 8, "end": 10 },
-    { "word": "司機", "pinyin": "sī jī", "start": 10, "end": 12 },
-    { "word": "時速", "pinyin": "shí sù", "start": 12, "end": 14 },
-    { "word": "能見度", "pinyin": "néng jiàn dù", "start": 14, "end": 16 },
-    { "word": "霧霾", "pinyin": "wù mái", "start": 16, "end": 18 },
-    { "word": "識別", "pinyin": "shí bié", "start": 18, "end": 20 },
-    { "word": "肉眼", "pinyin": "ròu yǎn", "start": 20, "end": 22 },
-    { "word": "障礙", "pinyin": "zhàng ài", "start": 22, "end": 24 },
-    { "word": "來不及", "pinyin": "lái bu jí", "start": 24, "end": 26 },
-    { "word": "設置", "pinyin": "shè zhì", "start": 26, "end": 28 },
-    { "word": "信號", "pinyin": "xìn hào", "start": 28, "end": 30 },
-    { "word": "列控系統", "pinyin": "liè kòng xì tǒng", "start": 30, "end": 32 },
-    { "word": "實現", "pinyin": "shí xiàn", "start": 32, "end": 34 },
-    { "word": "傳輸", "pinyin": "chuán shū", "start": 34, "end": 36 },
-    { "word": "計算機", "pinyin": "jì suàn jī", "start": 36, "end": 38 },
-    { "word": "間隔", "pinyin": "jiàn gé", "start": 38, "end": 40 },
-    { "word": "追蹤", "pinyin": "zhuī zōng", "start": 40, "end": 42 },
-    { "word": "確保", "pinyin": "què bǎo", "start": 42, "end": 44 },
-    { "word": "仍然", "pinyin": "réng rán", "start": 44, "end": 46 },
-    { "word": "軌道", "pinyin": "guǐ dào", "start": 46, "end": 48 },
-    { "word": "傳説", "pinyin": "chuán shuō", "start": 48, "end": 50 },
-    { "word": "現實", "pinyin": "xiàn shí", "start": 50, "end": 52 },
-    { "word": "沿綫", "pinyin": "yán xiàn", "start": 52, "end": 54 },
-    { "word": "攝像頭", "pinyin": "shè xiàng tóu", "start": 54, "end": 56 },
-    { "word": "石子兒", "pinyin": "shí zǐr", "start": 56, "end": 58 }
+    {
+        "word": "高速列車",
+        "pinyin": "gāo sù liè chē",
+        "start": 0,
+        "end": 3.270827
+    },
+    {
+        "word": "呼嘯而過",
+        "pinyin": "hū xiào ér guò",
+        "start": 3.270827,
+        "end": 5.661372
+    },
+    {
+        "word": "轉瞬即逝",
+        "pinyin": "zhuǎn shùn jí shì",
+        "start": 5.661372,
+        "end": 9.11306
+    },
+    {
+        "word": "不得不",
+        "pinyin": "bù dé bù",
+        "start": 9.11306,
+        "end": 11.848555
+    },
+    {
+        "word": "那麽",
+        "pinyin": "nà me",
+        "start": 11.848555,
+        "end": 14.20033
+    },
+    {
+        "word": "司機",
+        "pinyin": "sī jī",
+        "start": 14.20033,
+        "end": 17.091644
+    },
+    {
+        "word": "時速",
+        "pinyin": "shí sù",
+        "start": 17.091644,
+        "end": 19.966779
+    },
+    {
+        "word": "能見度",
+        "pinyin": "néng jiàn dù",
+        "start": 19.966779,
+        "end": 22.59073
+    },
+    {
+        "word": "霧霾",
+        "pinyin": "wù mái",
+        "start": 22.59073,
+        "end": 25.225674
+    },
+    {
+        "word": "識別",
+        "pinyin": "shí bié",
+        "start": 25.225674,
+        "end": 29.206722
+    },
+    {
+        "word": "肉眼",
+        "pinyin": "ròu yǎn",
+        "start": 29.206722,
+        "end": 32.025151
+    },
+    {
+        "word": "障礙",
+        "pinyin": "zhàng ài",
+        "start": 32.025151,
+        "end": 34.906473
+    },
+    {
+        "word": "來不及",
+        "pinyin": "lái bu jí",
+        "start": 34.906473,
+        "end": 37.66243
+    },
+    {
+        "word": "設置",
+        "pinyin": "shè zhì",
+        "start": 37.66243,
+        "end": 40.69763
+    },
+    {
+        "word": "信號",
+        "pinyin": "xìn hào",
+        "start": 40.69763,
+        "end": 43.406517
+    },
+    {
+        "word": "列控系統",
+        "pinyin": "liè kòng xì tǒng",
+        "start": 43.406517,
+        "end": 46.952821
+    },
+    {
+        "word": "實現",
+        "pinyin": "shí xiàn",
+        "start": 46.952821,
+        "end": 50.7909
+    },
+    {
+        "word": "傳輸",
+        "pinyin": "chuán shū",
+        "start": 50.7909,
+        "end": 52.755728
+    },
+    {
+        "word": "計算機",
+        "pinyin": "jì suàn jī",
+        "start": 52.755728,
+        "end": 56.060131
+    },
+    {
+        "word": "間隔",
+        "pinyin": "jiàn gé",
+        "start": 56.060131,
+        "end": 58.672577
+    },
+    {
+        "word": "追蹤",
+        "pinyin": "zhuī zōng",
+        "start": 58.672577,
+        "end": 61.819533
+    },
+    {
+        "word": "確保",
+        "pinyin": "què bǎo",
+        "start": 61.819533,
+        "end": 64.593547
+    },
+    {
+        "word": "仍然",
+        "pinyin": "réng rán",
+        "start": 64.593547,
+        "end": 67.695879
+    },
+    {
+        "word": "軌道",
+        "pinyin": "guǐ dào",
+        "start": 67.695879,
+        "end": 70.523971
+    },
+    {
+        "word": "傳説",
+        "pinyin": "chuán shuō",
+        "start": 70.523971,
+        "end": 73.282035
+    },
+    {
+        "word": "現實",
+        "pinyin": "xiàn shí",
+        "start": 73.282035,
+        "end": 76.430729
+    },
+    {
+        "word": "沿綫",
+        "pinyin": "yán xiàn",
+        "start": 76.430729,
+        "end": 79.072542
+    },
+    {
+        "word": "攝像頭",
+        "pinyin": "shè xiàng tóu",
+        "start": 79.072542,
+        "end": 81.945382
+    },
+    {
+        "word": "石子兒",
+        "pinyin": "shí zǐr",
+        "start": 81.945382,
+        "end": 84.465368
+    }
 ];
 
         // === 狀態變量 ===
